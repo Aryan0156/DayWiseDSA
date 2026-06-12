@@ -1,9 +1,9 @@
-package Day01;
+// package Day01;
 
 import java.util.Scanner;
 
-public class Starpyramid {
-    public static void main(String[] args) {
+public class NumberPyramind {
+     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         for(int i =0; i<n; i++){
@@ -19,3 +19,4 @@ public class Starpyramid {
         sc.close();
     }
 }
+    

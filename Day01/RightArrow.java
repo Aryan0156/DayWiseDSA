@@ -9,12 +9,12 @@ public class RightArrow {
     
         for (int i = n; i >= 1; i--) {
 
-            for (int s = 0; s < (n - i) * 5; s++) {
+            for (int s = 0; s < (n - i) * 2; s++) {
                 System.out.print(" ");
             }
 
             for (int j = 1; j <= i; j++) {
-                System.out.print("* ");
+                System.out.print("*");
             }
 
             System.out.println();
@@ -23,12 +23,12 @@ public class RightArrow {
         
         for (int i = 2; i <= n; i++) {
 
-            for (int s = 0; s < (n - i) * 5; s++) {
+            for (int s = 0; s < (n - i) * 2; s++) {
                 System.out.print(" ");
             }
 
             for (int j = 1; j <= i; j++) {
-                System.out.print("* ");
+                System.out.print("*");
             }
 
             System.out.println();

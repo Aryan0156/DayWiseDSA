@@ -14,6 +14,7 @@ public class NumberCheck {
         else{
             System.out.println("Zero");
         }
+        sc.close();
     }
     
 }

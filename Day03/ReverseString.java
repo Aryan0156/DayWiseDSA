@@ -24,5 +24,6 @@ public class ReverseString {
         reverse(arr, 0, arr.length-1);
 
         System.out.println(new String(arr));
+        sc.close();
     }
 }

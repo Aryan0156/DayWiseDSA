@@ -23,9 +23,7 @@ public class MajorityElement {
                 count = 1;
             }
         }
-        System.out.println(num + " Max Count = "+max);
-        
-    
+        System.out.println(num + " Max Count = "+max);    
 sc.close();
     }
     

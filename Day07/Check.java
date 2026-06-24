@@ -1,4 +1,4 @@
-// package Day07;
+package Day07;
 public class Check {
     public int majorityElement(int[] nums) {
         int n = nums.length;

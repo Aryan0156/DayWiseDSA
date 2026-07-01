@@ -5,8 +5,8 @@ public class BitFlip {
         int xor = n ^ m;
         int flipped = 0;
         while(xor !=0 ){
-            flipped += xor & 1; 
-            xor >>= 1;
+            xor = xor & (xor - 1);
+            flipped++;
         }
         return flipped;
         
